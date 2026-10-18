@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 Disallow: /workbench
-Sitemap: https://your-domain.example/sitemap.xml
+Sitemap: https://pdfkt.netlify.app/sitemap.xml

@@ -21,19 +21,30 @@
 
 /* Support link styling */
 .support-link {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   margin-top: 14px;
   font-size: 11px;
-  font-weight: 700;
-  color: #00783f;
+  font-weight: 800;
+  color: #ffffff;
   text-decoration: none;
-  border: 1px solid #cdddcf;
-  border-radius: 6px;
-  padding: 6px 10px;
+  background: #00783f;
+  border: 1px solid #006c39;
+  border-radius: 8px;
+  padding: 10px 16px;
   transition: all 0.2s;
+  box-shadow: 0 2px 6px rgba(0, 120, 63, 0.3);
 }
 .support-link:hover {
-  background: #edf8ed;
-  color: #006c39;
-  border-color: #00783f;
+  background: #006c39;
+  border-color: #005a32;
+  color: #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 120, 63, 0.4);
+  transform: translateY(-1px);
+}
+.support-link::after {
+  content: "→";
+  margin-left: 6px;
+  font-size: 12px;
 }
